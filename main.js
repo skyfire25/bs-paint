@@ -3,8 +3,8 @@ const color2 = document.querySelector('.color-2');
 const color3 = document.querySelector('.color-3');
 const color4 = document.querySelector('.color-4');
 const color5 = document.querySelector('.color-5');
-const brush =document.querySelector('.current-brush')
-
+const brush = document.querySelector('.current-brush')
+const div = document.querySelector('.square color-5')
 console.log(color1.classList);
 console.log (color1.classList[1]);
 
@@ -41,4 +41,8 @@ const changeBrush5 = function(){
 }
 color5.addEventListener('click',changeBrush5)
 
-
+const div = function(){
+    div.classList.remove(div.classList[])
+    div.classList.add('square color-5')
+}
+div.addEventListener('click',div)
