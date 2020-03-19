@@ -34,7 +34,12 @@
 }
 
 .canvas {
-
+display: grid;
+height: 200px;
+width: 200px;
+border: 1px solid black;
+grid-template-rows: repeat(10, 1fr);
+grid-template-columns: repeat(10, 1fr);
 }
 
 .square {
@@ -58,5 +63,5 @@
 }
 
 .color-5 {
-
+background-color:white;
 }
