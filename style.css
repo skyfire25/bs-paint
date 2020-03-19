@@ -47,19 +47,19 @@ grid-template-columns: repeat(10, 1fr);
 }
 
 .color-1 {
-
+background-color: royalblue;
 }
 
 .color-2 {
-
+background-color: red;
 }
 
 .color-3 {
-
+background-color: olivedrab;
 }
 
 .color-4 {
-
+background-color: black;
 }
 
 .color-5 {

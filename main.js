@@ -1,1 +1,1 @@
-const div1 = document.querySelector(color-1);
+const color1 = document.querySelector('#color1');
